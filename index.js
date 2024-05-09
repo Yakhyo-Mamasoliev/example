@@ -1,6 +1,8 @@
 // // npm init (requires to fill for the new package )
 // // npm init --yes (creates the new package default)
 // // npm i uuip
+// // try to learn most common modules
+// // to see preinstalled core modules type "node" and press tab twice in terminal
 
 // // npmjs.com is good website for doc reading
 
