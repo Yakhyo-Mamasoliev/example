@@ -167,7 +167,11 @@ In summary, while CommonJS is the traditional module system used in Node.js, ESM
 // // File Packages
 // // biz o`zimiz yaratgan packagelar
 // // o`zimizni komputerda yangi file ochib yaratamiz. 
-// // 
+// // ./ meni local folderimdan izla
+// // bu yuqorida izlashni eng kopi bila node modulesgacha izlaydi
+// // module.exports = Account; deb yozamiz har bir file p. kod oxiriga
+
+
 // const calculate = require('./hisob.js');
 
 // const natija = calculate.kopaytirish(80, 20);
@@ -175,3 +179,24 @@ In summary, while CommonJS is the traditional module system used in Node.js, ESM
 
 // //////////////////////
 // console.log(require("module").wrapper);
+
+
+
+
+const Account = require("./account");
+// //  quyidagi usulda faqat static methodlar ishlaydi
+// Account.tellMeAboutClass();
+// Account.tellMeAboutTime();
+
+////////////////////////////
+// after we entered details about us 
+const myAccount = new Account('Martin', 200000, 746298746578423);
+myAccount.giveMeDetails();
+
+// // bugatti chiron 2,4mln usd
+// myAccount.withdrawMoney(2400000);
+
+// // cheaper car 150k
+// myAccount.withdrawMoney(150000);
+
+myAccount.makeDeposit(30000);
