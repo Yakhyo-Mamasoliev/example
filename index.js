@@ -1,3 +1,5 @@
+// // Nodul emas Package deymiz
+
 // // npm init (requires to fill for the new package )
 // // npm init --yes (creates the new package default)
 // // npm i uuip
@@ -99,17 +101,17 @@
 
 
 
-// // Chalk P.
-// // install Common JS version for chalk chalk@4.1.2
-// // Cos, chalk is ESMAScript module
-const { v4: uuidv4 } = require("uuid");
-const random = uuidv4();
-console.log("random:", random);
+// // // Chalk P.
+// // // install Common JS version for chalk chalk@4.1.2
+// // // Cos, chalk is ESMAScript module
+// const { v4: uuidv4 } = require("uuid");
+// const random = uuidv4();
+// console.log("random:", random);
 
-const chalk = require("chalk");
-const log = console.log;
+// const chalk = require("chalk");
+// const log = console.log;
 
-log(chalk.blue("Hello") + chalk.yellow(random) + chalk.red("!"));
+// log(chalk.blue("Hello") + chalk.yellow(random) + chalk.red("!"));
 
 
 
@@ -162,18 +164,14 @@ In summary, while CommonJS is the traditional module system used in Node.js, ESM
 
 
 
+// // File Packages
+// // biz o`zimiz yaratgan packagelar
+// // o`zimizni komputerda yangi file ochib yaratamiz. 
+// // 
+// const calculate = require('./hisob.js');
 
+// const natija = calculate.kopaytirish(80, 20);
+// console.log('natija', natija);
 
-
-
-
-
-
-
-
-
-
-
-
-
-// File Packages
+// //////////////////////
+// console.log(require("module").wrapper);
