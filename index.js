@@ -32,7 +32,7 @@
 // fs.writeFileSync('./input.txt', `${data} \n\t\t by BekzodALi`);
 // // \n\t\t Regular Expression (new, tab, tab) 
 // const new_data = fs.readFileSync('./input.txt', 'utf8');
-// console.log(new_data); 
+// console.log(new_data);  
 
 
 
