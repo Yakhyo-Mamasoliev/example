@@ -120,47 +120,8 @@
 
 // // CommonJS (CJS) and ECMAScript Modules (ESM)
 
-/*
-CommonJS (CJS) and ECMAScript Modules (ESM) are two different module systems used in JavaScript.
-
-CommonJS (CJS):
-CommonJS is the module system used in Node.js by default.
-It uses require() to import modules and module.exports or exports to export values.
-Modules are loaded synchronously.
-
-Example:
-// Import module
-const fs = require('fs');
-
-// Export values
-module.exports = {
-    greet: function() {
-        console.log('Hello!');
-    }
-};
-
-
-ECMAScript Modules (ESM):
-ESM is the standardized module system introduced in ECMAScript 6 (ES6).
-It uses import and export statements for importing and exporting modules.
-Modules are loaded asynchronously.
-Example:
-javascript
-Copy code
-// Import module
-import fs from 'fs';
-
-// Export values
-export function greet() {
-    console.log('Hello!');
-}
-In a Node.js environment, you can use both CommonJS and ESM syntax, but there are some considerations:
-
-Node.js supports CommonJS modules natively, so you can use require() and module.exports without any additional configuration.
-Node.js also supports ESM syntax, but you need to use the .mjs file extension for ESM files, or specify "type": "module" in your package.json file to enable ESM syntax in .js files. When using ESM syntax in Node.js, you must use import and export statements instead of require() and module.exports.
-When working in a browser environment or using tools like webpack or Babel for bundling/transpiling JavaScript code, ESM syntax is often used because it's more standardized and allows for tree-shaking and other optimizations. However, these tools can also handle CommonJS syntax if needed.
-In summary, while CommonJS is the traditional module system used in Node.js, ESM offers some advantages and is becoming increasingly popular, especially in modern JavaScript development.
-*/ 
+// First one, synchronous 
+// Latter one, asynchronous 
 
 
 
